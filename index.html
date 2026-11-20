@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es" class="is-top">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>OCTANT 01 — Cómo se hace un reloj 3D en el navegador</title>
+    <meta
+      name="description"
+      content="Estudio de caso: un reloj procedural en three.js. Geometría, materiales y cámara generados en el navegador, sin modelos ni texturas descargados."
+    />
+    <meta name="theme-color" content="#08090a" />
+    <meta name="color-scheme" content="dark light" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="OCTANT 01 — Anatomía de una web 3D" />
+    <meta
+      property="og:description"
+      content="El reloj es la excusa: 0 modelos externos, 1 canvas y 6 planos de cámara para explicar cómo se construye una escena 3D en tiempo real."
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2308090a'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%23f1ede3' stroke-width='2'/%3E%3Cpath d='M32 32V16M32 32l11 6' stroke='%23f1ede3' stroke-width='2'/%3E%3Ccircle cx='32' cy='32' r='2.5' fill='%23ff3b1e'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="padding: 48px; font-family: monospace; color: #f1ede3; background: #08090a">
+        OCTANT 01 necesita JavaScript para la escena en tiempo real. La ficha: un canvas,
+        geometría 100 % procedural, three.js sobre WebGL2 y seis planos de cámara.
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
